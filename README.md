@@ -9,10 +9,12 @@ $ git clone https://github.com/emverdes/docker-tomcat-tutorial.git
 
 $ cd docker-tomcat-tutorial
 ```
-* Verify Tomcat download URL from https://dlcdn.apache.org/tomcat/ to update the Containerfile
+Build the image
 ```
 $ podman build -t tomcat-demo:1 .
-
+```
+Run the image 
+```
 $ podman run -p 8008:8080 --name demo1 tomcat-demo:1
 ```
 * In your browser go to http://localhost:8008
