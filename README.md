@@ -1,4 +1,4 @@
-# docker-tomcat-tutorial
+# Podman+Tomcat tutorial 
 A basic tutorial on running a web app on Tomcat using Podman (based on a docker tutorial)
 
 # Steps
