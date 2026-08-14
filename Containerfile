@@ -3,7 +3,7 @@ FROM quay.io/centos/centos:stream9
 LABEL maintainer="emverdes@gmail.com"
 
 RUN dnf install -y java-11-openjdk tomcat && \
-    dnf install iproute && \
+    dnf install -y iproute && \
     dnf clean all
 
 ADD sample.war /var/lib/tomcat/webapps/
